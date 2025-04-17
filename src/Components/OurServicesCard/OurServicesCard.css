@@ -1,0 +1,54 @@
+.rowDirection {
+  display: flex;
+  justify-content: space-between;
+}
+.cardTitleStyle {
+  font-family: var(--roboto-font);
+  color: var(--titles-color);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.servicesBtnStyle {
+  background: transparent;
+  border: none;
+  font-family: var(--roboto-mono-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: var(--other-grey-color);
+}
+.seviceTxtStyle {
+  font-family: var(--roboto-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--other-grey-color);
+}
+.priceStyle {
+  font-family: var(--roboto-font);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: right;
+  text-transform: uppercase;
+  color: var(--titles-color);
+}
+.serviceCardContainer {
+  background-color: var(--shadow-color);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 16px;
+}
+.serviceSectionStyle {
+  width: 50%;
+}

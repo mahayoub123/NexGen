@@ -10,15 +10,6 @@
   padding-bottom: 50px;
   padding-left: 50px;
 }
-.reasonTitle {
-  font-family: var(--roboto-font);
-  color: var(--titles-color);
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-transform: uppercase;
-}
 .ReasonsCardComponent {
   border-radius: 14px;
   display: flex;

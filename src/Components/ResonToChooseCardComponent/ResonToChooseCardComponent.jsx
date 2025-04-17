@@ -6,9 +6,6 @@ const ResonToChooseCardComponent = ({ title, desc }) => {
   return (
     <section className="ReasonStyle">
       <div className="reasonTitleContainer">
-        <h2 className="reasonTitle">
-          Reasons to Choose NexGen for Your Digital Journey
-        </h2>
         <div className="cardsContainer">
           <div className="ReasonsCardComponent">
             <h3 className="ReasonsCardComponent-Title">{title}</h3>
