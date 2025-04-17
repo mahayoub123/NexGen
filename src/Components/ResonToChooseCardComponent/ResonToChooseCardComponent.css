@@ -1,0 +1,71 @@
+.ReasonStyle {
+  border-radius: 24px;
+  border-width: 2px;
+  padding: 20px;
+}
+.reasonTitleContainer {
+  border-radius: 16px;
+  padding-top: 50px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+.reasonTitle {
+  font-family: var(--roboto-font);
+  color: var(--titles-color);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.ReasonsCardComponent {
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px;
+}
+.ReasonsCardComponent-Title {
+  width: 350px;
+  height: 90px;
+  font-family: var(--roboto-font);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: var(--titles-color);
+}
+.ReasonsCardComponent-Desc {
+  width: 350px;
+  height: 108px;
+  font-family: var(--roboto-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--other-grey-color);
+}
+.reasonBtnStyle {
+  background: transparent;
+  border: none;
+  font-family: var(--roboto-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--other-grey-color);
+}
+.arrIconStyle {
+  width: 68px;
+  height: 68px;
+  border-radius: 100px;
+  border-width: 1px;
+  padding: 20px;
+  background-color: var(--secondary-color);
+}
+.cardsContainer {
+  background-color: var(--shadow-color);
+  border-radius: 18px;
+}

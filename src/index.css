@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  /* Colors */
+  --primary-color: #0f0f0f;
+  --secondary-color: #1a1a1a;
+  --orange-color: #ce7d63;
+  --other-orange-color: #da9e8b;
+  --titles-color: #f9efec;
+  --text-color: #b3b3b2;
+  --other-text-color: #676665;
+  --grey-color: #e6e6e6;
+  --absolute-white: #ffffff;
+  --hover-color: #e7beb1; /*  and arrow color */
+  --other-grey-color: #81807e;
+
+  --other2-grey-color: #cccccc;
+
+  --checkbox-color: #404040;
+  --input-color: #333333;
+  --shadow-color: #242424;
+  --p-color: #262626;
+  --orange2-color: #f3dfd8;
+  --border-color: #1f1f1f;
+  --buttonicon: #262626;
+  --color-label: #f3dfd8;
+  --color-shadow: #0062ff08;
+  --color-checkbox: #404040;
+
+  /* Fonts */
+  --roboto-font: "Roboto Flex", serif;
+  --roboto-mono-font: "Roboto Mono", monospace;
+}
+body {
+  background-color: var(--primary-color);
+}

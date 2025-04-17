@@ -1,0 +1,7 @@
+.ReasonsToChooseCards {
+  display: flex;
+  border: 2px solid gray;
+  border-radius: 16px;
+  margin-top: 2rem;
+  width: 186rem;
+}

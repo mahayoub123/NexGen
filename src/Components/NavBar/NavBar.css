@@ -1,0 +1,63 @@
+.navBox div img {
+  width: 108px;
+  height: 102px;
+}
+.navBox {
+  display: flex;
+  justify-content: space-between;
+}
+.linksContainer ul li {
+  /* color: var(--other-text-color); */
+  list-style: none;
+  text-decoration: unset;
+}
+.linksContainer ul li a {
+  /* color: var(--primary-color); */
+  text-decoration: unset;
+}
+.linksContainer ul li button {
+  border: none;
+  background: transparent;
+  background-color: rgb(15, 15, 15, 1);
+}
+.btnStyle {
+  width: 157px;
+  height: 63px;
+  border-radius: 12px;
+  padding-top: 18px;
+  padding-right: 24px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  background-color: var(--orange-color) !important;
+}
+.btnStyle a {
+  width: 157px;
+  height: 63px;
+  border-radius: 12px;
+  padding-top: 18px;
+  padding-right: 24px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  color: var(--secondary-color) !important;
+}
+.btnStyle2 {
+  width: 157px;
+  height: 63px;
+  border-radius: 12px;
+  padding-top: 18px;
+  padding-right: 24px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  background-color: var(--secondary-color) !important;
+  font-family: var(--roboto-mono-font);
+  color: var(--other-grey-color) !important;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btnStyle2 a {
+  color: white;
+}
