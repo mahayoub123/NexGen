@@ -20,6 +20,10 @@
   background: transparent;
   background-color: rgb(15, 15, 15, 1);
 }
+.linksContainer ul {
+  display: flex;
+  gap: 16px;
+}
 .btnStyle {
   width: 157px;
   height: 63px;

@@ -3,7 +3,7 @@ import "./OurServicesCard.css";
 import arrowIcon from "../../assets/images/arrow.svg";
 const OurServicesCard = ({ img, title, desc, price }) => {
   return (
-    <section className="serviceSectionStyle">
+    <div className="serviceSectionStyle">
       <div className="serviceCardContainer">
         <div className="rowDirection">
           <img src={img} alt="icon" />
@@ -18,7 +18,7 @@ const OurServicesCard = ({ img, title, desc, price }) => {
         </div>
         <div className="priceStyle">{price}</div>
       </div>
-    </section>
+    </div>
   );
 };
 

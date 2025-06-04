@@ -2,13 +2,10 @@
   border-radius: 24px;
   border-width: 2px;
   padding: 20px;
+  width: 54%;
 }
 .reasonTitleContainer {
   border-radius: 16px;
-  padding-top: 50px;
-  padding-right: 300px;
-  padding-bottom: 50px;
-  padding-left: 50px;
 }
 .ReasonsCardComponent {
   border-radius: 14px;
